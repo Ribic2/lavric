@@ -98016,22 +98016,22 @@ var Router = new vue_router__WEBPACK_IMPORTED_MODULE_1__["default"]({
   routes: [{
     path: '/',
     component: function component() {
-      return __webpack_require__.e(/*! import() */ 1).then(__webpack_require__.bind(null, /*! ../Layout/index */ "./resources/js/App/Layout/index.vue"));
+      return __webpack_require__.e(/*! import() */ 0).then(__webpack_require__.bind(null, /*! ../Layout/index */ "./resources/js/App/Layout/index.vue"));
     },
     children: [{
       path: '/',
       component: function component() {
-        return __webpack_require__.e(/*! import() */ 0).then(__webpack_require__.bind(null, /*! ../pages/Home/view */ "./resources/js/App/pages/Home/view.vue"));
+        return __webpack_require__.e(/*! import() */ 3).then(__webpack_require__.bind(null, /*! ../pages/Home/view */ "./resources/js/App/pages/Home/view.vue"));
       }
     }, {
       path: '/contact',
       component: function component() {
-        return __webpack_require__.e(/*! import() */ 3).then(__webpack_require__.bind(null, /*! ../pages/Contact/index */ "./resources/js/App/pages/Contact/index.vue"));
+        return __webpack_require__.e(/*! import() */ 2).then(__webpack_require__.bind(null, /*! ../pages/Contact/index */ "./resources/js/App/pages/Contact/index.vue"));
       }
     }, {
       path: '/about',
       component: function component() {
-        return __webpack_require__.e(/*! import() */ 2).then(__webpack_require__.bind(null, /*! ../pages/About/index */ "./resources/js/App/pages/About/index.vue"));
+        return __webpack_require__.e(/*! import() */ 1).then(__webpack_require__.bind(null, /*! ../pages/About/index */ "./resources/js/App/pages/About/index.vue"));
       }
     }]
   }]
@@ -98068,7 +98068,7 @@ vue__WEBPACK_IMPORTED_MODULE_0___default.a.use(vuetify_lib__WEBPACK_IMPORTED_MOD
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _App__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./App */ "./resources/js/App.vue");
+/* harmony import */ var _App_vue__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./App.vue */ "./resources/js/App.vue");
 /* harmony import */ var _App_Service_Vuetify__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./App/Service/Vuetify */ "./resources/js/App/Service/Vuetify.js");
 /* harmony import */ var _App_Service_Router__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./App/Service/Router */ "./resources/js/App/Service/Router.js");
 __webpack_require__(/*! ./bootstrap */ "./resources/js/bootstrap.js");
@@ -98082,7 +98082,7 @@ var app = new Vue({
   vuetify: _App_Service_Vuetify__WEBPACK_IMPORTED_MODULE_1__["default"],
   router: _App_Service_Router__WEBPACK_IMPORTED_MODULE_2__["default"],
   render: function render(h) {
-    return h(_App__WEBPACK_IMPORTED_MODULE_0__["default"]);
+    return h(_App_vue__WEBPACK_IMPORTED_MODULE_0__["default"]);
   }
 });
 
@@ -98151,8 +98151,8 @@ window.axios.defaults.headers.common['X-Requested-With'] = 'XMLHttpRequest';
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! /home/vid/Desktop/Lavric/resources/js/app.js */"./resources/js/app.js");
-module.exports = __webpack_require__(/*! /home/vid/Desktop/Lavric/resources/sass/app.scss */"./resources/sass/app.scss");
+__webpack_require__(/*! C:\Users\urhbu\Documents\lavric\resources\js\app.js */"./resources/js/app.js");
+module.exports = __webpack_require__(/*! C:\Users\urhbu\Documents\lavric\resources\sass\app.scss */"./resources/sass/app.scss");
 
 
 /***/ })
