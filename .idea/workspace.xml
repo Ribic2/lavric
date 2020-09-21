@@ -1,7 +1,83 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="9bdf504d-5a22-4c77-8cb1-978bb7a356f2" name="Default Changelist" comment="" />
+    <list default="true" id="9bdf504d-5a22-4c77-8cb1-978bb7a356f2" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/resources/js/App/Layout/admin.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/js/App/Layout/login.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Lavric.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Lavric.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/AuthController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/VideoController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/User.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/Video.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/Video.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/auth.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/auth.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2020_09_18_054543_users.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2020_09_18_054543_users.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2020_09_18_054554_videos.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2020_09_18_054554_videos.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/seeders/DatabaseSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/seeders/DatabaseSeeder.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/seeders/UserSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/seeders/UserSeeder.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/0.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/1.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/3.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/js/App/Layout/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/App/Layout/index.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/js/App/Service/Api.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/App/Service/Api.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/js/App/Service/Router.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/App/Service/Router.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/js/App/pages/About/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/App/pages/About/index.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/js/App/pages/Contact/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/App/pages/Contact/index.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/js/App/pages/Home/view.vue" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/App/pages/Home/view.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/api.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/api.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/app/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/storage/app/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/app/public/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/app/public/200109_Nik_fotka.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/app/public/Facebook_Logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/app/public/Instagram.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/app/public/bartog_01.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/app/public/cosylab_01.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/app/public/ec19.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/app/public/ec20_02.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/app/public/ford_01.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/app/public/hvalafanta_01.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/app/public/janplestenjak_01.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/app/public/lidl_01.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/app/public/mc_01.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/app/public/mc_02.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/app/public/nik_favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/public/favicon.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/app/public/ozs_50.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/app/public/petrol_01.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/app/public/pirnar_01.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/storage/framework/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/cache/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/storage/framework/cache/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/cache/data/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/storage/framework/cache/data/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/sessions/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/storage/framework/sessions/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/testing/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/storage/framework/testing/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/views/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/storage/framework/views/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/logs/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/storage/logs/.gitignore" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -18,6 +94,19 @@
         <option value="Vue Single File Component" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="PhpDebugGeneral" break_at_first_line="true" />
+  <component name="PhpServers">
+    <servers>
+      <server host="lavric.demo" id="81f90961-1bda-4aae-a6e1-91f70d24fe65" name="lavric.demo" use_path_mappings="true">
+        <path_mappings>
+          <mapping local-root="$PROJECT_DIR$/public" remote-root="/home/vagrant/code2/public" />
+        </path_mappings>
+      </server>
+    </servers>
   </component>
   <component name="PhpWorkspaceProjectConfiguration">
     <include_path>
@@ -129,6 +218,11 @@
       <path value="$PROJECT_DIR$/vendor/guzzlehttp/promises" />
       <path value="$PROJECT_DIR$/vendor/guzzlehttp/psr7" />
       <path value="$PROJECT_DIR$/vendor/myclabs/deep-copy" />
+      <path value="$PROJECT_DIR$/vendor/namshi/jose" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-util" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-php56" />
+      <path value="$PROJECT_DIR$/vendor/lcobucci/jwt" />
+      <path value="$PROJECT_DIR$/vendor/tymon/jwt-auth" />
     </include_path>
   </component>
   <component name="ProjectId" id="1hbXgjIpsS7WwNX8Bu9uNOHNHlt" />
@@ -137,6 +231,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_MARK_IGNORED_FILES_AS_EXCLUDED" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -146,7 +241,15 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="settings.editor.selected.configurable" value="web-ide.project.structure" />
     <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/public" />
+      <recent name="$PROJECT_DIR$/public/css" />
+      <recent name="$PROJECT_DIR$/storage/app/public/test" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration name="phpunit.xml" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
@@ -164,10 +267,103 @@
       <updated>1600280878794</updated>
       <workItem from="1600280879811" duration="4110000" />
       <workItem from="1600363903130" duration="5808000" />
+      <workItem from="1600454210844" duration="6236000" />
+      <workItem from="1600515593279" duration="19563000" />
+      <workItem from="1600602381792" duration="9998000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="629" y="342" width="651" height="403" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1600459038482">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="629" y="342" width="651" height="403" key="#com.intellij.fileTypes.FileTypeChooser/1920.0.1920.1080/0.27.1920.1053/3840.0.1920.1080@0.27.1920.1053" timestamp="1600459038482" />
+    <state x="693" y="289" width="524" height="509" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1600457390443">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="693" y="289" width="524" height="509" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/1920.0.1920.1080/0.27.1920.1053/3840.0.1920.1080@0.27.1920.1053" timestamp="1600457390443" />
+    <state x="693" y="298" width="524" height="491" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1600606139747">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="693" y="298" width="524" height="491" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/1920.0.1920.1080/0.27.1920.1053/3840.0.1920.1080@0.27.1920.1053" timestamp="1600606139747" />
+    <state width="645" height="919" key="GridCell.Tab.0.bottom" timestamp="1600546973282">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state width="645" height="919" key="GridCell.Tab.0.bottom/1920.0.1920.1080/0.27.1920.1053/3840.0.1920.1080@0.27.1920.1053" timestamp="1600546973282" />
+    <state width="645" height="919" key="GridCell.Tab.0.center" timestamp="1600546973282">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state width="645" height="919" key="GridCell.Tab.0.center/1920.0.1920.1080/0.27.1920.1053/3840.0.1920.1080@0.27.1920.1053" timestamp="1600546973282" />
+    <state width="645" height="919" key="GridCell.Tab.0.left" timestamp="1600546973282">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state width="645" height="919" key="GridCell.Tab.0.left/1920.0.1920.1080/0.27.1920.1053/3840.0.1920.1080@0.27.1920.1053" timestamp="1600546973282" />
+    <state width="645" height="919" key="GridCell.Tab.0.right" timestamp="1600546973282">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state width="645" height="919" key="GridCell.Tab.0.right/1920.0.1920.1080/0.27.1920.1053/3840.0.1920.1080@0.27.1920.1053" timestamp="1600546973282" />
+    <state width="645" height="919" key="GridCell.Tab.1.bottom" timestamp="1600546973282">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state width="645" height="919" key="GridCell.Tab.1.bottom/1920.0.1920.1080/0.27.1920.1053/3840.0.1920.1080@0.27.1920.1053" timestamp="1600546973282" />
+    <state width="645" height="919" key="GridCell.Tab.1.center" timestamp="1600546973282">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state width="645" height="919" key="GridCell.Tab.1.center/1920.0.1920.1080/0.27.1920.1053/3840.0.1920.1080@0.27.1920.1053" timestamp="1600546973282" />
+    <state width="645" height="919" key="GridCell.Tab.1.left" timestamp="1600546973282">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state width="645" height="919" key="GridCell.Tab.1.left/1920.0.1920.1080/0.27.1920.1053/3840.0.1920.1080@0.27.1920.1053" timestamp="1600546973282" />
+    <state width="645" height="919" key="GridCell.Tab.1.right" timestamp="1600546973282">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state width="645" height="919" key="GridCell.Tab.1.right/1920.0.1920.1080/0.27.1920.1053/3840.0.1920.1080@0.27.1920.1053" timestamp="1600546973282" />
+    <state width="1872" height="350" key="GridCell.Tab.2.bottom" timestamp="1600518448476">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state width="1872" height="350" key="GridCell.Tab.2.bottom/1920.0.1920.1080/0.27.1920.1053/3840.0.1920.1080@0.27.1920.1053" timestamp="1600518448476" />
+    <state width="1872" height="350" key="GridCell.Tab.2.center" timestamp="1600518448476">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state width="1872" height="350" key="GridCell.Tab.2.center/1920.0.1920.1080/0.27.1920.1053/3840.0.1920.1080@0.27.1920.1053" timestamp="1600518448476" />
+    <state width="1872" height="350" key="GridCell.Tab.2.left" timestamp="1600518448476">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state width="1872" height="350" key="GridCell.Tab.2.left/1920.0.1920.1080/0.27.1920.1053/3840.0.1920.1080@0.27.1920.1053" timestamp="1600518448476" />
+    <state width="1872" height="350" key="GridCell.Tab.2.right" timestamp="1600518448476">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state width="1872" height="350" key="GridCell.Tab.2.right/1920.0.1920.1080/0.27.1920.1053/3840.0.1920.1080@0.27.1920.1053" timestamp="1600518448476" />
+    <state x="434" y="175" width="1052" height="737" key="SettingsEditor" timestamp="1600454221470">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="434" y="175" width="1052" height="737" key="SettingsEditor/1920.0.1920.1080/0.27.1920.1053/3840.0.1920.1080@0.27.1920.1053" timestamp="1600454221470" />
+    <state x="717" y="455" width="485" height="177" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1600547339845">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="717" y="455" width="485" height="177" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/1920.0.1920.1080/0.27.1920.1053/3840.0.1920.1080@0.27.1920.1053" timestamp="1600547339845" />
+    <state x="477" y="252" width="956" height="583" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1600537090803">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="477" y="252" width="956" height="583" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/1920.0.1920.1080/0.27.1920.1053/3840.0.1920.1080@0.27.1920.1053" timestamp="1600537090803" />
+    <state x="623" y="239" key="search.everywhere.popup" timestamp="1600536640862">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="623" y="239" key="search.everywhere.popup/1920.0.1920.1080/0.27.1920.1053/3840.0.1920.1080@0.27.1920.1053" timestamp="1600536640862" />
   </component>
 </project>

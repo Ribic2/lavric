@@ -2,20 +2,26 @@
 
 namespace App\Http\Controllers;
 
-use Tymon\JWTAuth\Facades\JWTAuth;
-use Illuminate\Http\Request;
 use Illuminate\Foundation\Auth\ThrottlesLogins;
+use Illuminate\Http\JsonResponse;
+use Illuminate\Http\Request;
+use Psy\Util\Json;
+use Tymon\JWTAuth\Facades\JWTAuth;
 
-class AuthController extends Controller
+class UserController extends Controller
 {
     use ThrottlesLogins;
 
+    public function username(){
+        return 'username';
+    }
     /**
      * Logs in user if provided credentials are correct
-     * @param object $request credentials that user provides (email, password)
-     * @return Request
+     * @param Request $request
+     * @return JsonResponse
+     * @throws \Illuminate\Validation\ValidationException
      */
-    public function login(Request $request)
+    public function login(Request $request): JsonResponse
     {
         // Login throttling, if user provides non-valid credentials he is blocked
         // from making attempts to login for 1 min
@@ -29,14 +35,25 @@ class AuthController extends Controller
 
         if (!$token = JWTAuth::attempt($credentials)) {
             $this->incrementLoginAttempts($request);
-            return response('Provided data was incorrect!', 400);
+            return abort(400, 'Provided data was incorrect!');
         } else {
             $token = JWTAuth::attempt($credentials);
 
-            return response()->json([
+            return new JsonResponse([
                 "token" => $token,
             ]);
 
         }
+    }
+
+    /**
+     * Authenticates user before accessing admin panel
+     * @return JsonResponse
+     */
+    public function checkUser(): JsonResponse{
+        return new JsonResponse([
+            "user" => auth()->user(),
+            "valid" => auth()->check()
+        ]);
     }
 }

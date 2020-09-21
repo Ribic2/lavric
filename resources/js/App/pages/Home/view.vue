@@ -1,8 +1,11 @@
 <template>
     <v-row>
         <v-col
-            cols="4"
-            lg="4"
+            cols="12"
+            sm="12"
+            lg="6"
+            md="6"
+            xl="4"
             v-for="i in 10" :key="i">
             <v-card
                 :rounded="false"
@@ -19,8 +22,29 @@
 </template>
 
 <script>
+import api from '../../Service/Api'
+
 export default {
-    name: "index.vue"
+
+    data() {
+        return {
+            videos: []
+        }
+    },
+    methods: {
+        getVideos() {
+            api.getVideos()
+            .then((response)=>{
+                console.log(response)
+            })
+            .catch((err)=>{
+                console.log(err.response)
+            })
+        }
+    },
+    mounted() {
+        this.getVideos()
+    }
 }
 </script>
 

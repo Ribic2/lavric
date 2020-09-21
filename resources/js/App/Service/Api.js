@@ -1,14 +1,16 @@
 import axios from 'axios'
 
 const instance = axios.create({
-    baseUrl: '/',
+    headers: {
+        'Authorization': `Bearer `+localStorage.getItem('authToken')
+    }
 })
 
 export default {
 
     /**
-     * Get all videos
-     * @returns {AxiosInstance}
+     * Returns all videos
+     * @returns {Promise<AxiosResponse<any>>}
      */
     getVideos(){
         return instance.get('/api/videos')
@@ -47,6 +49,15 @@ export default {
      * @returns {Promise<AxiosResponse<any>>}
      */
     login(username, password){
-        return instance.post('/api/login', {username: username, password: password})
+        return instance.post('/api/user/login', {username: username, password: password})
+    },
+
+    /**
+     * Checks user
+     * @returns {Promise<AxiosResponse<any>>}
+     */
+    checkUser(){
+        return instance.post('/api/user/check')
     }
+
 }

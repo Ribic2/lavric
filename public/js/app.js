@@ -97996,6 +97996,82 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
+/***/ "./resources/js/App/Service/Api.js":
+/*!*****************************************!*\
+  !*** ./resources/js/App/Service/Api.js ***!
+  \*****************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! axios */ "./node_modules/axios/index.js");
+/* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(axios__WEBPACK_IMPORTED_MODULE_0__);
+
+var instance = axios__WEBPACK_IMPORTED_MODULE_0___default.a.create({
+  headers: {
+    'Authorization': "Bearer " + localStorage.getItem('authToken')
+  }
+});
+/* harmony default export */ __webpack_exports__["default"] = ({
+  /**
+   * Returns all videos
+   * @returns {Promise<AxiosResponse<any>>}
+   */
+  getVideos: function getVideos() {
+    return instance.get('/api/videos');
+  },
+
+  /**
+   * Get video data
+   * @param {string} id
+   * @returns {Promise<AxiosResponse<any>>}
+   */
+  getVideo: function getVideo(id) {
+    return instance.get('/api/videos/' + id);
+  },
+
+  /**
+   * Deletes video from database
+   * @param {number} id
+   * @returns {AxiosInstance}
+   */
+  deleteVideo: function deleteVideo(id) {
+    return instance["delete"]('/api/videos/' + id);
+  },
+
+  /**
+   * Modifys video data
+   * @param {number} id
+   */
+  modifyVideo: function modifyVideo(id) {
+    return instance.patch('/api/videos/' + id);
+  },
+
+  /**
+   * Attempts to login user
+   * @param {string} username
+   * @param {string} password
+   * @returns {Promise<AxiosResponse<any>>}
+   */
+  login: function login(username, password) {
+    return instance.post('/api/user/login', {
+      username: username,
+      password: password
+    });
+  },
+
+  /**
+   * Checks user
+   * @returns {Promise<AxiosResponse<any>>}
+   */
+  checkUser: function checkUser() {
+    return instance.post('/api/user/check');
+  }
+});
+
+/***/ }),
+
 /***/ "./resources/js/App/Service/Router.js":
 /*!********************************************!*\
   !*** ./resources/js/App/Service/Router.js ***!
@@ -98008,6 +98084,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var vue__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! vue */ "./node_modules/vue/dist/vue.common.js");
 /* harmony import */ var vue__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(vue__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var vue_router__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! vue-router */ "./node_modules/vue-router/dist/vue-router.esm.js");
+/* harmony import */ var _Service_Api__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../Service/Api */ "./resources/js/App/Service/Api.js");
+
 
 
 vue__WEBPACK_IMPORTED_MODULE_0___default.a.use(vue_router__WEBPACK_IMPORTED_MODULE_1__["default"]);
@@ -98021,19 +98099,38 @@ var Router = new vue_router__WEBPACK_IMPORTED_MODULE_1__["default"]({
     children: [{
       path: '/',
       component: function component() {
-        return __webpack_require__.e(/*! import() */ 3).then(__webpack_require__.bind(null, /*! ../pages/Home/view */ "./resources/js/App/pages/Home/view.vue"));
+        return __webpack_require__.e(/*! import() */ 4).then(__webpack_require__.bind(null, /*! ../pages/Home/view */ "./resources/js/App/pages/Home/view.vue"));
       }
     }, {
       path: '/contact',
       component: function component() {
-        return __webpack_require__.e(/*! import() */ 2).then(__webpack_require__.bind(null, /*! ../pages/Contact/index */ "./resources/js/App/pages/Contact/index.vue"));
+        return __webpack_require__.e(/*! import() */ 3).then(__webpack_require__.bind(null, /*! ../pages/Contact/index */ "./resources/js/App/pages/Contact/index.vue"));
       }
     }, {
       path: '/about',
       component: function component() {
-        return __webpack_require__.e(/*! import() */ 1).then(__webpack_require__.bind(null, /*! ../pages/About/index */ "./resources/js/App/pages/About/index.vue"));
+        return __webpack_require__.e(/*! import() */ 2).then(__webpack_require__.bind(null, /*! ../pages/About/index */ "./resources/js/App/pages/About/index.vue"));
       }
     }]
+  }, {
+    path: '/admin',
+    component: function component() {
+      return __webpack_require__.e(/*! import() */ 5).then(__webpack_require__.bind(null, /*! ../Layout/admin */ "./resources/js/App/Layout/admin.vue"));
+    },
+    beforeEnter: function beforeEnter(to, from, next) {
+      _Service_Api__WEBPACK_IMPORTED_MODULE_2__["default"].checkUser().then(function (response) {
+        if (response.data.valid) {
+          next();
+        } else {
+          next('/');
+        }
+      });
+    }
+  }, {
+    path: '/login',
+    component: function component() {
+      return __webpack_require__.e(/*! import() */ 1).then(__webpack_require__.bind(null, /*! ../Layout/login */ "./resources/js/App/Layout/login.vue"));
+    }
   }]
 });
 /* harmony default export */ __webpack_exports__["default"] = (Router);
@@ -98151,8 +98248,8 @@ window.axios.defaults.headers.common['X-Requested-With'] = 'XMLHttpRequest';
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! C:\Users\urhbu\Documents\lavric\resources\js\app.js */"./resources/js/app.js");
-module.exports = __webpack_require__(/*! C:\Users\urhbu\Documents\lavric\resources\sass\app.scss */"./resources/sass/app.scss");
+__webpack_require__(/*! /home/vid/Desktop/lavric/resources/js/app.js */"./resources/js/app.js");
+module.exports = __webpack_require__(/*! /home/vid/Desktop/lavric/resources/sass/app.scss */"./resources/sass/app.scss");
 
 
 /***/ })

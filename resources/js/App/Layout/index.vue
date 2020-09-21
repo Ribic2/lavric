@@ -27,7 +27,7 @@
                 :elevation="0"
             >
                 <v-toolbar-title>
-                    <span class="font-weight-medium">Nik Lavrič</span> editor colorist
+                    <span class="font-weight-medium">NIK LAVRIČ</span> editor colorist
                 </v-toolbar-title>
 
                 <v-spacer></v-spacer>
@@ -53,7 +53,7 @@
             </v-app-bar>
             <hr>
 
-            <v-main>
+            <v-main id="main">
                 <router-view></router-view>
             </v-main>
         </v-container>
@@ -88,6 +88,9 @@ export default {
 @media only screen and (max-width: 565px) {
     .container {
         width: auto;
+    }
+    #main{
+        width: 100vw;
     }
 }
 </style>

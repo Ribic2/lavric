@@ -1,6 +1,8 @@
 <template>
     <v-row>
-        <v-col>
+        <v-col
+        cols="12"
+        >
             <p>Located in Ljubljana, Slovenia. Available globally.</p>
             <br>
             <h2>Phone</h2>
